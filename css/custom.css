@@ -1,0 +1,407 @@
+:root{
+  --main-coffee: #874c10;
+  --main-blue: #7ee0cc;
+  --main-yellow: #FFDF40;
+}
+
+.fadeInBlock{
+  opacity: 0;
+  transform: translateY(80px);
+  transition: all 0.8s;
+}
+
+.push-up{
+  transform: translateY(0);
+  opacity: 1;
+}
+
+
+.back-arrow{
+  width: 30px;
+  height: 20px;
+  position: absolute;
+  top: 0;
+  left: 30px;
+  color: var(--main-coffee);
+  /*background-color: black;*/
+  transition: all 0.3s;
+  font-size: 2.4em;
+}
+
+.back-arrow:hover{
+  left: 25px;
+  cursor: pointer;
+}
+
+.lifetag-wrap{
+  position: absolute;
+  bottom: 65px;
+  text-align: center;
+}
+
+.lifetag-wrap ul li{
+  display: inline-block;
+  font-size: 0.9em;
+  font-weight: 500;
+  color: white;
+  padding: 2px 12px;
+  margin: 0 4px;
+  border-radius: 3px;
+  background-color: var(--main-coffee);
+}
+
+
+.job-title{
+  padding: 6px 12px;
+  border-radius: 2px;
+  color: black;
+  font-size: 0.9em;
+  /*color: var(--main-coffee);*/
+  background-color: #FFDF40;
+  /*clear: both;*/
+ /*border: 2px solid var(--main-coffee);*/
+  display: inline-block;
+  font-weight: 500;
+}
+
+
+.ability-wrap{
+  display: flex;
+  max-width: 100%;
+  padding: 20px;
+  /*border: 1px dotted rgba(0, 0, 0, 0.015);*/
+  border-radius: 3px;
+  transition: all 0.3s;
+}
+
+
+
+.tools-wrap{
+  padding: 20px;
+  /*border: 1px dotted rgba(0, 0, 0, 0.015);*/
+  transition: all 0.3s;
+  border-radius: 3px;
+}
+
+
+
+
+.about-wrap{
+  position: relative;
+}
+
+.company-logo{
+  width: 130px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  opacity: .85;
+  text-align: left;
+  transition: all 0.3s;
+}
+
+.company-logo:hover{
+  opacity: 1;
+}
+
+.company-logo img{
+  width: 100%;
+  max-height: 30px;
+}
+.bolder{
+  font-weight: bolder;
+  font-size: 1.1em;
+  margin-bottom: 0;
+  color: var(--main-coffee);
+}
+.social-icon-group{
+  position: absolute;
+  bottom: 30px;
+  right: 50px;
+  max-width: 170px;
+}
+.social-icon-group ul li{
+  display: inline-block;
+}
+
+.social-icon-group ul li a {
+  display: inline-block;
+  color: black;
+  opacity: 0.6;
+  -webkit-transition: all .4s ease;
+          transition: all .4s ease;
+  margin-left: 3px;
+}
+
+.social-icon-group ul li a:hover {
+  -webkit-transform: translateY(-5px);
+      -ms-transform: translateY(-5px);
+          transform: translateY(-5px);
+          color: var(--main-coffee);
+          opacity: 1;
+}
+
+.social-icon-group ul li a i {
+  font-size: 18px;
+  line-height: 30px;
+  width: 22px;
+  height: 22px;
+  text-align: center;
+}
+
+.mt20{
+  margin-top: 20px;
+}
+
+label{
+  color: var(--main-coffee);
+  font-family: Montserrat;
+  /*font-weight: lighter;*/
+}
+
+.copyright{
+  color: white;
+  position: absolute;
+  bottom: 15px;
+  transition: all 0.3s;
+  padding: 3px 10px;
+}
+/*.copyright:hover{
+  background-color: var(--main-coffee);
+  border-radius: 2px;
+}*/
+.divide-line{
+  width: 100%;
+  height: 2px;
+  margin-top: 30px;
+  border-bottom: 2px dashed var(--main-yellow);
+}
+.tools-icon ul li{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: yellow;
+  margin: 0 20px 30px 0;
+}
+.title{
+  font-size: 2em;
+  color: var(--main-coffee);
+
+}
+.simonlogo{
+  width: 100px;
+  height: auto;
+  float: right;
+  margin-top: 20px;
+}
+
+.simon-name{
+  font-size: 1.3em;
+  font-weight: 500;
+  position: absolute;
+  bottom: 70px;
+  right: 50px;
+  letter-spacing: 2px;
+  color: white;
+  background-color: var(--main-coffee);
+  padding: 0 7px;
+  border-radius: 2px;
+}
+
+.simon-avatar{
+  width: 120px;
+  height: 120px;
+  position: relative;
+  display: block;
+  float: right;
+  margin-top: 10px;
+  transition: all 0.3s;
+  overflow: hidden;
+}
+
+.simon-avatar img{
+  border-radius: 5%;
+}
+
+.simon-avatar:hover .simon-avatar-top{
+  top: 0;
+  transition: all 0.2s;
+}
+
+.simon-avatar-top{
+  border-radius: 5%;
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 120px;
+  background-color: var(--main-coffee);
+  color: white;
+  opacity: 0.85;
+}
+
+.simon-avatar-top p{
+  font-style: italic;
+  font-size: 2em;
+  font-weight: bold;
+  margin: auto;
+  margin-top: 30%;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.tool-title{
+  max-width: 175px;
+  color: white;
+  background-color: var(--main-coffee);
+  padding: 4px 10px;
+  border-radius: 2px;
+}
+
+.tools-icon{
+  width: 30px;
+  height: 30px;
+  /*background-color: grey;*/
+  vertical-align: bottom;
+  margin-right: 5px;
+  display: inline-block;
+}
+
+
+.experience-image{
+  width: 220px;
+  /*background-color: yellow;*/
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 10px;
+  opacity: 0.85;
+  transition: all 0.3s;
+}
+
+.experience-image img{
+  border-radius: 2px;
+}
+
+.experience-image:hover{
+  opacity: 1;
+}
+
+
+.timeline-uiuxcafe,.timeline-meepshop{
+  position: relative;
+  top: -8px;
+  margin-bottom: 3px;
+}
+
+.works-caption{
+  font-size: 0.9em;
+  color: white;
+  opacity: 0.9;
+  line-height: 1.4em;
+  letter-spacing: 1px;
+  margin: 0 20px;
+  margin-top: 20px;
+}
+
+/*RWD*/
+@media screen and (max-width: 1200px){
+  .simon-avatar,.simonlogo{
+    float: left;
+  }
+  .simon-name{
+    bottom: 30px;
+    right: 30px;
+  }
+  .social-icon-group{
+    bottom: 85px;
+    right: 30px;
+    max-width: 170px;
+  }
+
+  .social-icon-group ul li{
+    float: right;
+  }
+  .back-arrow{
+    left: 15px;
+    top: 0;
+    font-size: 1.6em;
+  }
+}
+
+@media screen and (max-width: 768px){
+
+  .logo:after{
+    display: none;
+  }
+  .back-arrow{
+    top: -5px;
+  }
+  .simon-name{
+    bottom: 15px;
+    right: 15px;
+  }
+
+
+  .social-icon-group{
+    bottom: 65px;
+    right: 15px;
+    max-width: 170px;
+  }
+}
+
+@media screen and (max-width: 414px){
+
+
+  .lifetag-wrap{
+    /*max-width: 240px;*/
+  }
+
+  .lifetag-wrap ul li{
+    margin-top: 10px;
+  }
+
+  .copyright{
+    font-size: 0.7em;
+  }
+
+  .download{
+    display: none;
+  }
+
+  .nav-social{
+    display: none;
+  }
+
+
+  .timeline li a {
+    max-width: 300px !important;
+  }
+
+}
+
+@media screen and (min-width: 414px){
+  .ability-wrap:hover{
+    background-color: #faf1e8;
+  }
+
+  .tools-wrap:hover{
+    /*border: 1px dotted var(--main-coffee);*/
+    background-color: #faf1e8;
+  }
+
+  .gallery-item:hover img{
+    transform: scale(1.1);
+  }
+
+  .gallery-item a:hover .gallery-caption {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .see-more:hover{
+    opacity: 0.9;
+    color: white;
+    width: 250px;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    background-color: var(--main-coffee);
+  }
+}

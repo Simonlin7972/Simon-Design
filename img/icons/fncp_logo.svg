@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>fncp_logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M7.42981762,28.2449027 L60.4865624,28.2558942 L60.5358284,63.7702624 C60.5404182,67.0789424 57.8612745,69.7611574 54.5522443,69.7611574 L13.1727422,69.7611574 C9.86351009,69.7611574 7.19699123,67.0691486 7.21678395,63.7686759 L7.42981762,28.2449027 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-5" y="-5" width="63.3260165" height="51.5162547">
+            <rect x="2.2110963" y="23.2449027" width="63.3260165" height="51.5162547" fill="white"></rect>
+            <use xlink:href="#path-1" fill="black"></use>
+        </mask>
+        <path d="M11.6534612,38.0111385 L57.4464665,38.2149194 L57.4602845,62.8907711 C57.4615224,65.1014123 55.6693318,66.8934912 53.4717786,66.8934912 L15.3489459,66.8934912 C13.144917,66.8934912 11.3764457,65.108567 11.3990984,62.8926966 L11.6534612,38.0111385 Z" id="path-3"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="1" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="1" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-5">
+            <feGaussianBlur stdDeviation="4" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <rect id="path-6" x="0.504308967" y="9.19526389" width="53.7259204" height="8.43421033"></rect>
+        <mask id="mask-7" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-5" y="-5" width="63.7259204" height="18.4342103">
+            <rect x="-4.49569103" y="4.19526389" width="63.7259204" height="18.4342103" fill="white"></rect>
+            <use xlink:href="#path-6" fill="black"></use>
+        </mask>
+        <rect id="path-8" x="0.791072247" y="4.78931747" width="52.7981554" height="7.42210525"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-9">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPad-Pro-Portrait" transform="translate(-681.000000, -92.000000)">
+            <rect id="Rectangle-Copy-11" fill="#D4D4D4" opacity="0" x="681" y="92" width="80" height="80"></rect>
+            <g id="Group-6" transform="translate(721.049999, 131.057812) rotate(3.000000) translate(-721.049999, -131.057812) translate(689.000000, 94.000000)">
+                <g id="Rectangle-9" transform="translate(33.874105, 49.003030) rotate(-9.000000) translate(-33.874105, -49.003030) ">
+                    <use fill="#E6E6E6" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <use stroke="#874C10" mask="url(#mask-2)" stroke-width="10" xlink:href="#path-1"></use>
+                </g>
+                <g id="Rectangle-9-Copy" transform="translate(34.426552, 52.452315) rotate(-9.000000) translate(-34.426552, -52.452315) ">
+                    <use fill="" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                </g>
+                <ellipse id="Oval-5" fill="#FFFFFF" filter="url(#filter-5)" cx="34.1585518" cy="49.3401304" rx="7.16907878" ry="7.16907878"></ellipse>
+                <g id="Rectangle-10" transform="translate(27.367269, 13.412369) rotate(-16.000000) translate(-27.367269, -13.412369) ">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-6"></use>
+                    <use stroke="#874C10" mask="url(#mask-7)" stroke-width="10" xlink:href="#path-6"></use>
+                </g>
+                <g id="Group-5" transform="translate(4.217105, 23.615789)">
+                    <g id="Rectangle-11" transform="translate(27.190150, 8.500370) rotate(-9.000000) translate(-27.190150, -8.500370) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-9)" xlink:href="#path-8"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-8"></use>
+                    </g>
+                    <polygon id="Path-16" fill="#1D2226" points="17.2032062 6.23703368 24.2065884 5.14486701 18.1437382 13.7207732 10.9644734 14.8249858"></polygon>
+                    <polygon id="Path-16-Copy" fill="#1D2226" points="31.6256853 3.95979946 38.6290675 2.8676328 32.5662173 11.443539 25.3869525 12.5477516"></polygon>
+                    <polygon id="Path-16-Copy-2" fill="#1D2226" points="45.7108268 1.76690606 52.714209 0.6747394 46.6513588 9.25064556 39.472094 10.3548582"></polygon>
+                    <polygon id="Path-17" fill="#1D2226" points="0.259032662 8.97594482 8.63814393 7.70304371 1.35501809 16.4455914"></polygon>
+                </g>
+                <polygon id="Path-16" fill="#1D2226" transform="translate(38.175954, 10.368416) scale(-1, 1) rotate(25.000000) translate(-38.175954, -10.368416) " points="37.8596557 6.04437721 45.2751221 4.89077416 38.3570102 14.6921553 31.0767868 15.8460574"></polygon>
+                <polygon id="Path-16-Copy" fill="#1D2226" transform="translate(23.959232, 14.409750) scale(-1, 1) rotate(25.000000) translate(-23.959232, -14.409750) " points="23.8044069 10.111742 31.0241498 8.97048607 24.1745371 18.6951122 16.8943137 19.8490144"></polygon>
+                <path d="M4.20776895,15.6357929 L7.11150671,14.8255052 L17.0622203,20.8192657 L9.97643708,22.8502306 L1.46246524,17.6366285 C1.65530063,17.1256697 2.22795635,16.1414117 3.8404726,15.7556445 C3.98724369,15.720532 4.10877795,15.6803052 4.20776895,15.6357929 Z" id="Combined-Shape" fill="#1D2226"></path>
+                <path d="M44.593936,7.46312611 C44.2641819,5.33422197 45.7186587,3.35374139 47.8640595,3.03642505 L53.5046875,2.2021458 L45.3186185,12.1417022 L44.593936,7.46312611 Z" id="Path-17" fill="#1D2226" transform="translate(48.983015, 7.171924) scale(-1, 1) rotate(25.000000) translate(-48.983015, -7.171924) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

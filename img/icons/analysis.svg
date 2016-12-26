@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="121px" height="120px" viewBox="0 0 121 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>analysis</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="805" y="1030" width="108" height="94" rx="3"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="108" height="94" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="80" y="0" width="12.2040816" height="60" rx="2"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="12.2040816" height="60" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <rect id="path-5" x="64" y="27" width="12.2040816" height="33" rx="2"></rect>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="12.2040816" height="33" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <rect id="path-7" x="48" y="37" width="12.2040816" height="23" rx="2"></rect>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="12.2040816" height="23" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+        <rect id="path-9" x="32" y="21" width="12.2040816" height="39" rx="2"></rect>
+        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="12.2040816" height="39" fill="white">
+            <use xlink:href="#path-9"></use>
+        </mask>
+        <rect id="path-11" x="16" y="27" width="12.2040816" height="33" rx="2"></rect>
+        <mask id="mask-12" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="12.2040816" height="33" fill="white">
+            <use xlink:href="#path-11"></use>
+        </mask>
+        <rect id="path-13" x="0" y="37" width="12.2040816" height="23" rx="2"></rect>
+        <mask id="mask-14" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="12.2040816" height="23" fill="white">
+            <use xlink:href="#path-13"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPad-Pro-Portrait-Copy" transform="translate(-799.000000, -1013.000000)">
+            <use id="Rectangle-20" stroke="#874C10" mask="url(#mask-2)" stroke-width="8" fill="#FFFFFF" xlink:href="#path-1"></use>
+            <g id="Group-33" transform="translate(813.000000, 1063.000000)" stroke="#874C10" stroke-width="6">
+                <use id="Rectangle-21" mask="url(#mask-4)" fill="#FFDF40" xlink:href="#path-3"></use>
+                <use id="Rectangle-21-Copy" mask="url(#mask-6)" fill="#C7733F" xlink:href="#path-5"></use>
+                <use id="Rectangle-21-Copy-2" mask="url(#mask-8)" fill="#C7733F" xlink:href="#path-7"></use>
+                <use id="Rectangle-21-Copy-3" mask="url(#mask-10)" fill="#C7733F" xlink:href="#path-9"></use>
+                <use id="Rectangle-21-Copy-4" mask="url(#mask-12)" fill="#FFDF40" xlink:href="#path-11"></use>
+                <use id="Rectangle-21-Copy-5" mask="url(#mask-14)" fill="#C7733F" xlink:href="#path-13"></use>
+            </g>
+            <polyline id="Path-20" stroke="#FFDF40" stroke-width="2" points="818.773149 1080.78041 834.266354 1069.83677 850.596975 1075.64647 866.894115 1064.32159 882.074094 1060.4391 897.971513 1044.8921"></polyline>
+            <g id="Group-34" transform="translate(815.000000, 1020.000000)">
+                <polygon id="Stroke-1" fill="#C7733F" opacity="0.200000003" points="36.4347378 48.5035453 3.96265826 24.76911 9.92778923 7.63932674 42.0648228 0.0330682856 55.9626583 12.4622433"></polygon>
+                <g id="Group-28" stroke-linecap="round" stroke-width="4" stroke="#874C10" stroke-linejoin="round">
+                    <g id="Group-5">
+                        <polygon id="Stroke-1" fill="#FFDF40" points="31.1764112 46.8901385 -0.000105123635 24.102654 5.72703049 7.65631068 36.5818685 0.353524896 49.9252114 12.2868037"></polygon>
+                        <path d="M0,24.1027598 L49.9253165,12.2869095" id="Stroke-3"></path>
+                    </g>
+                    <polyline id="Stroke-6" points="15.9340659 20.2986907 31.1612244 46.863989 33.9596155 16.0352941"></polyline>
+                    <polygon id="Stroke-7" points="15.4966733 19.4010993 22.0511319 3.51439293 34.3905441 15.6814709 36.0608764 0.136636642 6.04395604 7.30278578"></polygon>
+                </g>
+            </g>
+            <circle id="Oval-11" fill="#C7733F" cx="819" cy="1081" r="3"></circle>
+            <circle id="Oval-11-Copy" fill="#C7733F" cx="835" cy="1070" r="3"></circle>
+            <circle id="Oval-11-Copy-2" fill="#C7733F" cx="851" cy="1076" r="3"></circle>
+            <circle id="Oval-11-Copy-3" fill="#C7733F" cx="866" cy="1065" r="3"></circle>
+            <circle id="Oval-11-Copy-4" fill="#C7733F" cx="882" cy="1060" r="3"></circle>
+            <circle id="Oval-11-Copy-5" fill="#C7733F" cx="898" cy="1045" r="3"></circle>
+        </g>
+    </g>
+</svg>

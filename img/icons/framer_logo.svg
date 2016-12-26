@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>framer_logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="57.4661028%" y1="108.884605%" x2="7.92533866%" y2="-4.55460066%" id="linearGradient-1">
+            <stop stop-color="#0039E1" offset="0%"></stop>
+            <stop stop-color="#05DAFD" offset="100%"></stop>
+        </linearGradient>
+        <path d="M13.8126035,18.6396086 L7.07783476,21.6381208 C3.55065596,23.208522 1.95692439,27.3492355 3.52961351,30.8815532 L19.2784621,66.2540462 C20.8488633,69.781225 24.9895768,71.3749565 28.5218944,69.8022674 L63.8943875,54.0534189 C64.4103348,53.8237043 64.884912,53.5389924 65.3142597,53.2092322 L65.5724546,53.1683381 C69.3858975,52.5643481 71.9970195,48.977214 71.3921495,45.1582153 L65.3350048,6.91490884 C64.7310148,3.10146601 61.1438807,0.490343995 57.324882,1.09521397 L19.0815755,7.15235866 C15.2681327,7.75634867 12.6570107,11.3434828 13.2618806,15.1624815 L13.8126035,18.6396086 Z" id="path-2"></path>
+        <mask id="mask-3" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-5" y="-5" width="78.5121098" height="79.3566273">
+            <rect x="-2.04654981" y="-3.97819656" width="78.5121098" height="79.3566273" fill="white"></rect>
+            <use xlink:href="#path-2" fill="black"></use>
+        </mask>
+        <linearGradient x1="0%" y1="0%" x2="86.4561194%" y2="69.2112632%" id="linearGradient-4">
+            <stop stop-color="#1DB5FF" offset="0%"></stop>
+            <stop stop-color="#8EE0FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="-19.6749133%" x2="69.9390287%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#3EDCFF" offset="0%"></stop>
+            <stop stop-color="#17A2FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="24.7124602%" y1="0%" x2="147.811726%" y2="156.055878%" id="linearGradient-6">
+            <stop stop-color="#0160E8" offset="0%"></stop>
+            <stop stop-color="#05C5FA" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPad-Pro-Portrait" transform="translate(-681.000000, -189.000000)">
+            <rect id="Rectangle-Copy-10" fill="#D4D4D4" opacity="0" x="681" y="189" width="80" height="80"></rect>
+            <g id="Group-3" transform="translate(683.000000, 193.000000)">
+                <rect id="Rectangle-5-Copy" fill="url(#linearGradient-1)" transform="translate(35.486111, 37.845770) rotate(-24.000000) translate(-35.486111, -37.845770) " x="9.125" y="11.4846587" width="52.7222222" height="52.7222222" rx="7"></rect>
+                <rect id="Rectangle-5" fill="#FFFFFF" transform="translate(42.327015, 30.160348) rotate(-9.000000) translate(-42.327015, -30.160348) " x="15.965904" y="3.79923729" width="52.7222222" height="52.7222222" rx="7"></rect>
+                <use id="Combined-Shape" stroke="#874C10" mask="url(#mask-3)" stroke-width="10" xlink:href="#path-2"></use>
+                <path d="M29.5190761,18.0281972 C29.0780396,17.6991596 29.157969,17.3635853 29.7148846,17.2759516 L47.7780107,14.4336208 C48.3271892,14.3472046 48.8535439,14.7172414 48.9534883,15.2592076 L50.4800413,23.5372095 C50.5800611,24.0795847 50.217602,24.5871997 49.6713867,24.6708583 L41.3284851,25.9486622 C40.7818577,26.032384 39.9782782,25.8313381 39.5401613,25.5044787 L29.5190761,18.0281972 Z" id="Path-13" fill="url(#linearGradient-4)"></path>
+                <path d="M30.7850667,28.2410883 C30.2412178,28.3434373 29.8747368,28.8706535 29.9658766,29.4148855 L31.4330257,38.1758166 L51.4223209,35.5134582 C51.9654532,35.4411188 52.0485598,35.1141959 51.6041313,34.7803913 L41.2724236,27.0203761 C40.8297025,26.6878538 40.0392954,26.4994989 39.4860805,26.6036106 L30.7850667,28.2410883 Z" id="Path-14" fill="url(#linearGradient-5)"></path>
+                <path d="M31.4497458,38.1957784 L42.6667747,46.5668409 C43.1128244,46.8997196 43.4106648,46.7220205 43.3321522,46.1708678 L41.9906829,36.753848 L31.4497458,38.1957784 Z" id="Path-15" fill="url(#linearGradient-6)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

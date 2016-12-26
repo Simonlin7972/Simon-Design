@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>flinto_logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPad-Pro-Portrait" transform="translate(-370.000000, -189.000000)">
+            <rect id="Rectangle-Copy-7" fill="#D4D4D4" opacity="0" x="370" y="189" width="80" height="80"></rect>
+            <rect id="Rectangle-3-Copy" stroke="#874C10" stroke-width="5" fill="#FE6D60" x="374" y="193" width="72" height="72" rx="13"></rect>
+            <rect id="Rectangle-4" fill="#F2615C" x="410" y="196" width="33" height="33"></rect>
+            <rect id="Rectangle-4-Copy" fill="#F2615C" transform="translate(393.500000, 245.500000) rotate(-180.000000) translate(-393.500000, -245.500000) " x="377" y="229" width="33" height="33"></rect>
+            <circle id="Oval" fill="#FFFFFF" cx="429.5" cy="210.5" r="6.5"></circle>
+            <circle id="Oval-Copy" fill="#FFFFFF" cx="391.5" cy="248.5" r="6.5"></circle>
+            <path d="M392.387863,244.156569 C392.387863,244.156569 393.827528,215.500535 427.778693,209.991724" id="Path-12" stroke="#FFFFFF" stroke-width="4"></path>
+        </g>
+    </g>
+</svg>
