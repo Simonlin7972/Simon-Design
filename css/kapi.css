@@ -1,0 +1,404 @@
+:root {
+  --main-coffee: #784D1F;
+  --main-blue: #7ee0cc;
+  --main-yellow: #FFDF40;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #FAFAFA;
+}
+
+.bg-white-border {
+  background: white;
+  box-shadow: inset 0 -1px 0 0 #E6E6E6, inset 0 1px 0 0 #E6E6E6;
+}
+
+.mt8 {
+  margin-top: 8px;
+}
+
+.mt24 {
+  margin-top: 24px;
+}
+
+.p4{
+ padding-left: 4px;
+ padding-right: 4px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+/*navbar*/
+
+.nav-bar {
+  height: 64px;
+  background-color: var(--main-coffee);
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.16);
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+}
+
+.logo-link {
+  display: inline-block;
+  margin-top: 8px;
+}
+
+.logo-img {
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+}
+
+.web-title {
+  display: inline-block;
+  color: white;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: lighter;
+  border: 1px solid white;
+  padding: 9px 12px;
+  border-radius: 3px;
+  margin-left: 16px;
+}
+
+.back-to-home {
+  text-decoration: none;
+  width: 200px;
+  float: right;
+  margin-top: 22px;
+  transition: all 0.3s;
+}
+
+.back-to-home:hover {
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.backhome-arrow {
+  float: left;
+  display: inline-block;
+}
+
+.backhome-text {
+  padding-top: 2px;
+  padding-left: 32px;
+  color: white;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: lighter;
+}
+
+
+/*主圖*/
+
+.hero-image{
+  height: 480px;
+  background-image: url(../img/hero-img.png);
+  background-attachment: fixed;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+
+.hero-image:after{
+  content: "";
+  background-color: black;
+  opacity: 0.6;
+  height: 480px;
+  position: absolute;
+  top:0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.header-content {
+  margin-top: 150px;
+  color: white;
+  position: absolute;
+  z-index: 101;
+}
+.header-content h1{
+  font-size: 50px;
+  letter-spacing: 2px;
+}
+
+.header-content h2{
+  font-size: 18px;
+  margin-top: 0;
+  line-height: 22px;
+}
+
+
+.tag-group-outline{
+  margin-top: 24px;
+  display: inline-block;
+}
+
+.tag-outline{
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 6px 16px;
+  margin-right: 4px;
+}
+
+
+.product-intro {
+
+}
+
+.title-20 {
+  font-size: 20px;
+  color: #333333;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+.body-text {
+  /*max-width: 800px;*/
+  font-size: 14px;
+  color: rgba(51, 51, 51, 0.70);
+  line-height: 20px;
+}
+
+.content-wrap {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.title-24 {
+  padding-bottom: 4px;
+  font-size: 24px;
+  line-height: 24px;
+}
+.z-index{
+  position: relative;
+  z-index: 88;
+}
+.problem{
+  background-image: url(../img/coffee_mac.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  position: relative;
+  top:0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.problem:after{
+  content: "";
+  background-color: black;
+  opacity: 0.5;
+  position: absolute;
+  top:0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 5;
+}
+.phone-wrap{
+  max-width: 1100px;
+  position: relative;
+}
+.hand-phone{
+  position: absolute;
+  top:-308px;
+  bottom: 0;
+  left: -220px;
+  right: 0;
+  z-index: 778;
+  width: 430px;
+  height: 600px;
+}
+
+.hand-phone img{
+  width: 100%;
+}
+
+
+
+/*user survey*/
+.survey-wrap{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 880px;
+}
+.number-percent {
+  font-weight: 100;
+  font-size: 48px;
+  color: var(--main-coffee);
+  line-height: 48px;
+}
+
+.icon-survey {
+  margin: auto;
+  width: 120px;
+  height: 120px;
+}
+
+
+/*persona*/
+
+.mb48 {
+  margin-bottom: 48px;
+}
+
+.persona-card {
+  background: #FFFFFF;
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.04);
+  border-radius: 5px;
+}
+
+.persona-img {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  background-image: url(../img/man_student.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 160px;
+}
+
+.subtitle-16 {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.card-content {
+  padding: 24px;
+}
+
+.tag-group {
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
+
+.tag-personality {
+  color: var(--main-coffee);
+  display: inline-block;
+  border-radius: 2px;
+  padding: 4px 8px;
+  border: 1px solid var(--main-coffee);
+  margin-right: 4px;
+}
+
+
+/*goal*/
+
+.goal {
+  height: 440px;
+}
+
+.goal-img {
+  background-image: url(../img/man_student.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 440px;
+}
+
+.goal-wrap{
+  padding: 64px 24px;
+  height: 440px;
+}
+
+.serial-number {
+  display: inline-block;
+  background-color: var(--main-coffee);
+  padding: 2px;
+  text-align: center;
+  color: white;
+  border-radius: 100%;
+  width: 24px;
+  height: 24px;
+}
+
+.subtitle-coffee {
+  margin-left: 8px;
+  font-size: 16px;
+  color: var(--main-coffee);
+  display: inline-block;
+}
+
+
+.process{
+  background-color: var(--main-coffee);
+}
+/*design process*/
+.process-wrap{
+  margin: 0 auto;
+  text-align: center;
+  max-width: 800px;
+  padding-top: 48px;
+  padding-bottom: 40px;
+}
+
+.process-img{
+  margin: 0 auto;
+  max-width: 1100px;
+  padding-bottom: 64px;
+}
+
+/*ia*/
+.ia-wrap{
+  text-align: center;
+}
+
+.flow-img{
+  margin: 0 auto;
+  max-width: 1100px;
+  padding-top: 40px;
+}
+
+.max800{
+  max-width: 1000px;
+  margin: auto;
+}
+
+.wireframe{
+  text-align: center;
+}
+.wireframe-img{
+  padding-left: 4px;
+  padding-right: 4px;
+  margin-top: 6px;
+}
+
+/*mvp*/
+.mvp{
+  background-color: rgba(120,77,31,0.06);
+box-shadow: inset 0 -1px 0 0 #E6E6E6, inset 0 1px 0 0 #E6E6E6;
+}
+
+.p0{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.text-light {
+  color: white;
+  font-weight: 100;
+}
+
+.font-bold{
+  font-weight: 600;
+}
