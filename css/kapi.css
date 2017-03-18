@@ -4,10 +4,17 @@
   --main-yellow: #FFDF40;
 }
 
+
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 * {
   font-family: 'Open Sans', sans-serif;
 }
+
+*::selection{
+  background-color: var(--main-coffee);
+  color: white;
+}
+
 
 a {
   text-decoration: none;
@@ -15,6 +22,18 @@ a {
 
 body {
   background-color: #FAFAFA;
+}
+video{
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+h4,h3 {
+  margin-top: 0;
+}
+
+h2{
+  margin-bottom: 0;
 }
 
 .bg-white-border {
@@ -53,12 +72,12 @@ body {
 
 .logo-link {
   display: inline-block;
-  margin-top: 8px;
+  margin-top: 10px;
 }
 
 .logo-img {
-  width: 48px;
-  height: 48px;
+  width: 46px;
+  height: 46px;
   display: inline-block;
 }
 
@@ -67,11 +86,13 @@ body {
   color: white;
   font-size: 14px;
   letter-spacing: 1px;
-  font-weight: lighter;
-  border: 1px solid white;
-  padding: 9px 12px;
+  font-weight: 400;
+  border: 2px solid white;
+  /*background-color: rgba();*/
+  padding: 6px 10px;
   border-radius: 3px;
   margin-left: 16px;
+  background: rgba(255,255,255,0.12);
 }
 
 .back-to-home {
@@ -164,6 +185,7 @@ body {
 }
 
 .title-20 {
+  margin-top: 0;
   font-size: 20px;
   color: #333333;
   line-height: 20px;
@@ -222,7 +244,7 @@ body {
 }
 .hand-phone{
   position: absolute;
-  top:-308px;
+  top:-328px;
   bottom: 0;
   left: -220px;
   right: 0;
@@ -263,16 +285,53 @@ body {
   margin-bottom: 48px;
 }
 
+.mb16{
+  margin-bottom: 16px;
+}
+
 .persona-card {
   background: #FFFFFF;
   box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.04);
   border-radius: 5px;
+  transition: all 0.3s;
+  position: relative;
+  top: 0;
+}
+
+.persona-card:hover{
+  box-shadow: 0 18px 32px 0 rgba(0, 0, 0, 0.1);
+  top: -4px;
+}
+
+.persona-card:hover .tag-personality{
+  color: white;
+  background-color: var(--main-coffee);
+
 }
 
 .persona-img {
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
   background-image: url(../img/man_student.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 160px;
+}
+.persona-img-2 {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  background-image: url(../img/salesman.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 160px;
+}
+
+.persona-img-3 {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  background-image: url(../img/designer.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -300,6 +359,7 @@ body {
   padding: 4px 8px;
   border: 1px solid var(--main-coffee);
   margin-right: 4px;
+  transition: all 0.5s;
 }
 
 
@@ -317,6 +377,9 @@ body {
   height: 440px;
 }
 
+.goal-content{
+  max-width: 560px;
+}
 .goal-wrap{
   padding: 64px 24px;
   height: 440px;
@@ -399,6 +462,115 @@ box-shadow: inset 0 -1px 0 0 #E6E6E6, inset 0 1px 0 0 #E6E6E6;
   font-weight: 100;
 }
 
+
+
 .font-bold{
   font-weight: 600;
+  line-height: 1.2em;
+}
+
+
+/*launch*/
+
+.launched{
+  background-image: url(../img/bg-2.jpg);
+  background-attachment: fixed;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 3;
+  position: relative;
+}
+
+.launched:after{
+content: '';
+background-color: black;
+opacity: 0.6;
+position: absolute;
+top:0;
+left: 0;
+bottom: 0;
+right: 0;
+z-index: 4;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+.title-32{
+  font-size: 32px;
+  color: var(--main-coffee);
+  font-weight: bold;
+
+
+}
+.launch-content{
+  height: 500px;
+  z-index: 5;
+  position: relative;
+}
+
+/*refine*/
+.refine-design img{
+  border-radius: 3px;
+}
+
+/*design-system*/
+.system-img
+.design-sysetem{
+  height: 400px;
+}
+
+.system-content{
+  margin-top: 120px;
+}
+
+.ui-component{
+    /*max-height: 600px;*/
+}
+.ui-component-img{
+  max-height: 1000px;
+}
+
+.showcase{
+  height: 1200px;
+  background-image: url(../img/bg-3.jpg);
+  /*background-attachment: fixed;*/
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+.op8{
+  opacity: .8;
+}
+
+.btn{
+  margin-top: 24px;
+  margin-bottom: 64px;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 60px;
+  transition: all 0.3s;
+}
+
+.btn:hover{
+  color: white;
+  text-decoration: none;
+  opacity: .85;
+}
+
+.btn-coffee{
+  background-color: var(--main-coffee);
+  box-shadow: 0 5px 11px 2px rgba(120,77,31,0.24);
+}
+
+.align-center{
+  margin: 0 auto;
+  text-align: center;
 }
