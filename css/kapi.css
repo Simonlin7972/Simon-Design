@@ -6,8 +6,10 @@
 
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
 * {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lato', 'Open Sans',  "PingFang TC", "STHeiti" ,"sans-serif,";
 }
 
 *::selection{
@@ -177,15 +179,10 @@ h2{
 
 .tag-outline{
   display: inline-block;
-  border: 1px solid white;
+  border: 2px solid white;
   border-radius: 20px;
   padding: 6px 16px;
   margin-right: 4px;
-}
-
-
-.product-intro {
-
 }
 
 .title-20 {
@@ -314,11 +311,13 @@ h2{
   transition: all 0.3s;
   position: relative;
   top: 0;
+  border: 1px solid none;
 }
 
 .persona-card:hover{
   box-shadow: 0 18px 32px 0 rgba(0, 0, 0, 0.1);
   top: -4px;
+  /*border: 1px solid var(--main-coffee);*/
 }
 
 .persona-card:hover .tag-personality{
@@ -384,7 +383,7 @@ h2{
 /*goal*/
 
 .goal {
-  height: 440px;
+  max-height: 1200px;
 }
 
 .goal-img {
@@ -421,9 +420,13 @@ h2{
   display: inline-block;
 }
 
-
+.clearfix{
+  clear: both;
+}
 .process{
   background-color: var(--main-coffee);
+  max-height: 800px;
+  clear: both;
 }
 /*design process*/
 .process-wrap{
@@ -432,6 +435,10 @@ h2{
   max-width: 800px;
   padding-top: 48px;
   padding-bottom: 40px;
+}
+
+.process-height{
+  /*height: 800px;*/
 }
 
 .process-img{
@@ -558,13 +565,21 @@ z-index: 4;
 }
 
 .showcase{
-  height: 1200px;
-  background-image: url(../img/bg-3.jpg);
-  /*background-attachment: fixed;*/
+  /*height: 1200px;*/
+  /*background-image: url(../img/Display_2.png);*/
+  /*background-attachment: scroll;
   background-position: right;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;*/
   z-index: 1;
+  background: rgba(120, 77, 31, 0.06);
+}
+.showcase-image img{
+  width: 100%;
+}
+
+.showcase-img{
+  margin-top: 48px;
 }
 .op8{
   opacity: .8;
@@ -598,3 +613,68 @@ z-index: 4;
   margin: 0 auto;
   text-align: center;
 }
+
+
+/*RWD 調整*/
+
+@media screen and (max-width: 1200px) {
+  .hand-phone{
+    top:-288px;
+  }
+  .tag-personality{
+    margin-bottom: 6px;
+  }
+  .launch-content{
+    height: 600px;
+  }
+
+
+/*小於992*/
+@media screen and (max-width: 992px) {
+
+  .hand-phone{
+    width: 300px;
+    top:-435px;
+    left: 420px;
+  }
+
+  .launch-content{
+    height: 800px;
+  }
+
+  .process{
+    max-height: 800px;
+}
+
+/*小於768*/
+@media screen and (max-width: 768px) {
+
+  .persona-card{
+    margin-bottom: 16px;
+  }
+}
+
+/*小於560*/
+@media screen and (max-width: 560px) {
+
+  .web-title{
+    display: none;
+  }
+  .goal-wrap{
+      height: 560px;
+  }
+  .launch-content{
+    height: 1000px;
+  }
+
+
+}
+
+/*小於414*/
+
+@media screen and (max-width: 414px) {
+  .hand-phone{
+    width: 260px;
+    top:-377px;
+    left: 120px;
+  }
