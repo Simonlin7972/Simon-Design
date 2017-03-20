@@ -387,11 +387,12 @@ h2{
 }
 
 .goal-img {
-  background-image: url(../img/man_student.jpg);
+  background-image: url(../img/brainstorming_1.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 440px;
+  opacity: .8;
 }
 
 .goal-content{
@@ -470,6 +471,12 @@ h2{
   padding-left: 4px;
   padding-right: 4px;
   margin-top: 8px;
+  height: auto;
+
+}
+
+.wireframe-img img{
+  border-radius: 5px;
 }
 
 /*mvp*/
@@ -561,7 +568,7 @@ z-index: 4;
     /*max-height: 600px;*/
 }
 .ui-component-img{
-  max-height: 1000px;
+  max-height: 1200px;
 }
 
 .showcase{
@@ -619,7 +626,7 @@ z-index: 4;
 
 @media screen and (max-width: 1200px) {
   .hand-phone{
-    top:-288px;
+    top:-308px;
   }
   .tag-personality{
     margin-bottom: 6px;
@@ -648,9 +655,16 @@ z-index: 4;
 
 /*小於768*/
 @media screen and (max-width: 768px) {
-
   .persona-card{
     margin-bottom: 16px;
+  }
+  .refine-design img{
+    margin-bottom: 32px;
+  }
+  .hand-phone{
+    left: 320px;
+    width: 280px;
+    top: -406px;
   }
 }
 
@@ -666,7 +680,15 @@ z-index: 4;
   .launch-content{
     height: 1000px;
   }
+.subtitle-coffee{
+  display: block;
+  margin-left: 0;
+  margin-top: 0;
+}
 
+.hand-phone{
+  left: 160px;
+}
 
 }
 
