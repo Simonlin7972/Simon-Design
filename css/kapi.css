@@ -103,7 +103,7 @@ h2{
 
 .back-to-home {
   text-decoration: none;
-  width: 200px;
+  max-width: 200px;
   float: right;
   margin-top: 22px;
   transition: all 0.3s;
@@ -651,6 +651,13 @@ z-index: 4;
 
   .process{
     max-height: 800px;
+  }
+  .problem h3{
+    text-align: center;
+  }
+  .refine-design img{
+    margin-bottom: 32px;
+  }
 }
 
 /*小於768*/
@@ -658,14 +665,14 @@ z-index: 4;
   .persona-card{
     margin-bottom: 16px;
   }
-  .refine-design img{
-    margin-bottom: 32px;
-  }
+
   .hand-phone{
     left: 320px;
     width: 280px;
     top: -406px;
   }
+
+
 }
 
 /*小於560*/
