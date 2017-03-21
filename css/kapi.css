@@ -9,7 +9,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 * {
-  font-family: 'Lato', 'Open Sans',  "PingFang TC", "STHeiti" ,"sans-serif,";
+  font-family: 'Lato', 'Open Sans',  "PingFang TC", "Helvetica Neue", "STHeiti", "Heiti TC" ,"sans-serif,";
 }
 
 *::selection{
